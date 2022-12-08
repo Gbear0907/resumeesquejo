@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Contact Me</title>
+</head>
+
+<style>
+	table {
+		font-family: 'Trebuchet MS', sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	td,
+	th {
+		border: 1px solid black;
+		text-align: center;
+		padding: 10px;
+	}
+
+	tr:nth-child(even) {
+		background-color: #72FFFF;
+	}
+
+	.myMarg {
+		border: 5px;
+		margin: 50px;
+	}
+
+	.button {
+		border: none;
+		color: black;
+		padding: 15px;
+		text-align: right;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 25px;
+		cursor: pointer;
+		font-family: 'Trebuchet MS', sans-serif;
+	}
+
+	.font {
+		font-family: 'Trebuchet MS', sans-serif;
+	}
+
+	.smam {
+		font-family: 'Trebuchet MS', sans-serif;
+		margin: auto;
+		width: 90%;
+	}
+</style>
+
+<body>
+	<h1 class="font">&#9742; CONTACT ME</h1>
+
+	<table>
+		<tr>
+			<th>Email</th>
+			<th>Facebook</th>
+			<th>Mobile Number</th>
+		</tr>
+
+		<tr>
+			<td>
+				<a href "mailto: trexieesquejo@thelewiscollege.edu.ph" target="_blank">
+					trexieesquejo@thelewiscollege.edu.ph
+				</a>
+			</td>
+			<td>
+				<a href "https://m.facebook.com/trexie.enormeesquejo/" target="_blank">
+					Trexie Enorme Esquejo
+				</a>
+			</td>
+			<td>0963 674 2888</td>
+		</tr>
+	</table>
+	<br>
+
+	<div class="smam">
+		<h2>Send Me A Message:</h2>
+		<form action="index.html" method="post">
+			<label>Your Name: </label>
+			<input type="text"><br><br>
+			<label>Your Email: </label>
+			<input type="email"><br><br>
+			<label>Contact Number: </label>
+			<input type="number"><br><br>
+			<label>Attach your file here: </label>
+			<input type="file"><br><br>
+			<label>Your Message or Inquiry: </label><br>
+			<textarea name="name" rows="10" cols="100"></textarea><br>
+			<label>Date Submitted: </label>
+			<input type="date"><br><br>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Clear All">
+
+		</form>
+
+	</div>
+
+
+	<div>
+		<h6 class="button">
+			<a href="index.html" class="button">Home</a>
+			|
+			<a href="about_me.html" class="button">About Me</a>
+		</h6>
+	</div>
+
+</body>
+
+</html>
